@@ -2,8 +2,8 @@ import Project from "./Project";
 
 export default function Project_List(){
     return (
-        <div class="mx-8">
-            <h1 class="text-2xl font-bold font-courier">02. Projects</h1>
+        <div>
+            <a id="Projects" class="text-2xl font-bold font-courier">02. Projects</a>
             <div class="flex flex-col mt-4 gap-y-5">
                 <Project 
                     name={"Pixel Draw"}
