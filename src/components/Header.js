@@ -7,7 +7,7 @@ export default function Header(){
 
     return(
         <header className="flex flex-col items-end sticky top-0">
-            <button onClick={() => set_active(!active)}><img className="mx-4 size-12" src={require("../images/menu.png")}></img></button>
+            <button onClick={() => set_active(!active)}><img className="mx-4 size-12 lg:hidden" src={require("../images/menu.png")}></img></button>
             
             <div className={`mx-4 mt-2 bg-white size-36 h-40 rounded-lg ${active ? '' : 'hidden'} fixed top-10`}>
                 <div className="my-2 flex flex-col gap-2">

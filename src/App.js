@@ -10,7 +10,7 @@ function App() {
   return (
     <div class="text-white bg-gradient-to-b from-slate-950 to-blue-950">
       <Header />
-      <div class="flex flex-col gap-8 mx-8"> 
+      <div class="flex flex-col gap-8 mx-8 lg:mx-64"> 
         <Title />
         <About />
         <Project_List />
