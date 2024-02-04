@@ -11,7 +11,7 @@ export default function Header(){
             
             <div className={`mx-4 mt-2 bg-white size-36 h-40 rounded-lg ${active ? '' : 'hidden'} fixed top-10`}>
                 <div className="my-2 flex flex-col gap-2">
-                    <Drop_Down_Item item_name="Home" link="#Home" />
+                    <Drop_Down_Item item_name="Home" link="#top" />
                     <Drop_Down_Item item_name="About" link="#About" />
                     <Drop_Down_Item item_name="Projects" link="#Projects" />
                     <Drop_Down_Item item_name="Contact" link="#Contact" />

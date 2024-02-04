@@ -14,7 +14,15 @@ export default function Nav_Bar(){
       });
 
     return(
-        <div class={`hidden lg:block bg-black w-screen h-14 fixed ${active ? 'opacity-25' : 'opacity-0'}`}>
+        <div class={`hidden lg:block bg-black/50 w-screen h-14 fixed ${active ? 'visible' : 'invisible'}`}>
+
+            <div className="flex flex-row items-center gap-8 px-8 text-xl text-white font-mono h-full">
+                <a rel="noopener" href="#top" class="transition ease-in-out hover:text-slate-400 underline-effect">Home</a>
+                <a rel="noopener" href="#About" class="transition ease-in-out hover:text-slate-400 underline-effect">About</a>
+                <a rel="noopener" href="#Projects" class="transition ease-in-out hover:text-slate-400 underline-effect">Projects</a>
+                <a rel="noopener" href="#Contact" class="transition ease-in-out hover:text-slate-400 underline-effect">Contact</a>
+            </div>
+            
         </div>
     );
 }

@@ -9,10 +9,10 @@ import Nav_Bar from './components/Nav_Bar.js';
 
 function App() {
   return (
-    <div class="text-white bg-gradient-to-b from-slate-950 to-blue-950 overflow-x-hidden">
+    <div class="text-white bg-gradient-to-b from-slate-950 to-blue-950">
       <Header />
       <Nav_Bar />
-      <div class="flex flex-col gap-8 lg:mx-64 lg:gap-16"> 
+      <div class="flex flex-col gap-8 mx-8 lg:mx-64 lg:gap-16"> 
         <Title />
         <About />
         <Project_List />

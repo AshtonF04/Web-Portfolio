@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .underline-effect {
+        @apply relative text-xl w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center
+    };
+}
+
 *{
     scroll-behavior: smooth;
 }
+
+@keyframes animate-bounce-hover {
+    0%, 100% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+
+    50% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+}
+.hover\:animate-bounce-hover:hover { animation: animate-bounce-hover 1s infinite; }
