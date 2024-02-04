@@ -5,12 +5,14 @@ import About from './components/About.js';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Contact from './components/Contact.js';
+import Nav_Bar from './components/Nav_Bar.js';
 
 function App() {
   return (
-    <div class="text-white bg-gradient-to-b from-slate-950 to-blue-950">
+    <div class="text-white bg-gradient-to-b from-slate-950 to-blue-950 overflow-x-hidden">
       <Header />
-      <div class="flex flex-col gap-8 mx-8 lg:mx-64"> 
+      <Nav_Bar />
+      <div class="flex flex-col gap-8 lg:mx-64 lg:gap-16"> 
         <Title />
         <About />
         <Project_List />
