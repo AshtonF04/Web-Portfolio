@@ -19,6 +19,7 @@ export default function Nav_Bar(){
             <div className="flex flex-row items-center gap-8 px-8 text-xl text-white font-mono h-full">
                 <a rel="noopener" href="#top" class="transition ease-in-out hover:text-slate-400 underline-effect">Home</a>
                 <a rel="noopener" href="#About" class="transition ease-in-out hover:text-slate-400 underline-effect">About</a>
+                <a rel="noopener" href="#Skills" class="transition ease-in-out hover:text-slate-400 underline-effect">Skills</a>
                 <a rel="noopener" href="#Projects" class="transition ease-in-out hover:text-slate-400 underline-effect">Projects</a>
                 <a rel="noopener" href="#Contact" class="transition ease-in-out hover:text-slate-400 underline-effect">Contact</a>
             </div>

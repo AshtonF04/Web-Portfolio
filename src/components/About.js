@@ -1,7 +1,7 @@
 export default function About(){
     return (
         <div id="About">
-            <h1 class="text-2xl font-bold font-courier mb-4 lg: mt-20">01. About</h1>
+            <h1 class="text-2xl font-bold font-courier mb-4 lg:mt-20">01. About</h1>
             <div class="flex flex-col items-center gap-4 lg:flex-row lg:mt-12">
 
                 <img class="transition ease-in-out rounded-full size-60 lg:size-72 hover:rotate-3 hover:scale-110" src={require("../images/profile-image.jpg")}></img>

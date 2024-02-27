@@ -6,6 +6,7 @@ import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Contact from './components/Contact.js';
 import Nav_Bar from './components/Nav_Bar.js';
+import Skills from './components/Skills.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div class="flex flex-col gap-8 mx-8 lg:mx-64 lg:gap-16"> 
         <Title />
         <About />
+        <Skills />
         <Project_List />
         <Contact />
       </div>

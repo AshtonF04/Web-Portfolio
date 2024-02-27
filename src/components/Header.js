@@ -13,6 +13,7 @@ export default function Header(){
                 <div className="my-2 flex flex-col gap-2">
                     <Drop_Down_Item item_name="Home" link="#top" />
                     <Drop_Down_Item item_name="About" link="#About" />
+                    <Drop_Down_Item item_name="Skills" link="#Skills" />
                     <Drop_Down_Item item_name="Projects" link="#Projects" />
                     <Drop_Down_Item item_name="Contact" link="#Contact" />
                 </div>
