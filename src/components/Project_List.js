@@ -14,7 +14,7 @@ export default function Project_List(){
                     name={"Portfolio Website"}
                     description={`The website you are currently viewing! Developed using HTML, ReactJS, and TailWind
                     CSS.`}
-                    link={"https://github.com/"}
+                    link={"https://github.com/AshtonF04/Web-Portfolio"}
                 />
                 <Project
                     name={"Todo App"}
