@@ -8,7 +8,7 @@ export default function About(){
 
                 <div class="flex flex-col gap-4 lg:ml-16 lg:mr-80">
                     <p class="font-mono text">
-                        I'm a second year student currently completing my bachelors of <strong>Computer Science</strong> at 
+                        I'm a third year student currently completing my bachelors of <strong>Computer Science</strong> at 
                         <strong> Western University</strong>, in London Ontario.
                     </p>
                     <p class="font-mono text">

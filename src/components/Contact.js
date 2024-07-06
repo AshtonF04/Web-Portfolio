@@ -1,7 +1,7 @@
 export default function Contact(){
     return(
         <div class="flex flex-col gap-4">
-            <a id="Contact" class="text-2xl font-bold font-courier">04. Contact</a>
+            <a id="Contact" class="text-2xl font-bold font-courier">05. Contact</a>
             <div class="flex flex-col gap-2 font-mono lg:gap-4">
                 <div class="flex items-center gap-2">
                     <img class="size-10" src={require("../images/email-image.png")}></img>
